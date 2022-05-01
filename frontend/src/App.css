@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: white;
+  display: block;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.App{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 350px;
+  min-height: 700px;
+  border-radius: 20px;
+  background-color: #0c0c0c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  text-align: left;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 1.15rem;
+  font-family: "Noto Sans", sans-serif;
+  color:white;
+  overflow: hidden;
+}
+.App > p {
+  text-align: center;
+}
+
+.loading{
+  color:white;
+  text-align: center;
+}
+.error {
+  color:rgb(255, 56, 56);
+  text-align: center;
+}
